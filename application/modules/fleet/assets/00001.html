@@ -1,0 +1,306 @@
+<head>
+  <title>Print Invoice</title>
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    table {
+      font-family: Arial, sans-serif;
+      border: 1px solid black;
+      border-collapse: collapse;
+      heigt: 1000px;
+    }
+    td,
+    th {
+      border: 1px solid black;
+      text-align: left;
+      padding: 8px;
+      font-size: 14px;
+    }
+    .form-control-inline {
+      border: none;
+      padding: 0;
+      width: 100%;
+    }
+    .company-details {
+      padding-top: 80px;
+    }
+    .BL-number {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 0px 10px 0px 10px;
+    }
+    .BL-number label {
+      margin-top: 10px;
+    }
+    .BL-number input {
+      width: 100px;
+    }
+    .logo1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    .shipper {
+      display: flex;
+      flex-direction: column;
+    } /* Add more CSS styles here */
+  </style>
+</head>
+<body>
+  <title>Print Invoice</title>
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  />
+  <style>
+    /* Your CSS styles here */
+  </style>
+
+  <div class="main-div">
+    <div class="print-container" style="">
+      <h4>BILL OF LADING</h4>
+      <table class="table table-bordered">
+        <tbody>
+          <tr>
+            <td colspan="4">
+              <div class="shipper">
+                <label for="">SHIPPER</label>
+                <input
+                  id="shipperName"
+                  type="text"
+                  name="shipperName"
+                  class="form-control-inline"
+                  placeholder="Lakmini Induni"
+                />
+                <input
+                  type="text"
+                  class="form-control-inline"
+                  placeholder="No.11 Alagoda,poojapitiya"
+                />
+                <input
+                  type="text"
+                  class="form-control-inline"
+                  placeholder="20000"
+                />
+              </div>
+            </td>
+            <td colspan="4" rowspan="2">
+              <div style="position: relative">
+                <div
+                  class="BL-number"
+                  style="position: absolute; top: 0; right: 0"
+                >
+                  <div><label for="">BL NO</label></div>
+                  <div>
+                    <input
+                      type="text"
+                      name="blNo"
+                      class="form-control-inline"
+                      placeholder="00001"
+                    />
+                  </div>
+                </div>
+
+                <div class="company-details">
+                  <div class="logo1">
+                    <div><img src="logo.png" alt="" width="200px" /></div>
+
+                    <label
+                      for=""
+                      style="font-size: 10px; line-height: 12px; color: blue"
+                      >167, Maharagama Road, Dehiwala, <br />Tel: (+94) 112 724
+                      485<br />
+                      Mobile: (+94) 777 876 582<br />
+                      Email: info@NewShaheenLLClogistics.com Web:
+                      www.NewShaheenLLC.com</label
+                    >
+                  </div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4">
+              <div class="shipper">
+                <label for="">CONSIGNEE</label>
+                <input
+                  type="text"
+                  class="form-control-inline"
+                  placeholder="Jhone"
+                />
+                <input
+                  type="text"
+                  class="form-control-inline"
+                  placeholder="Yapa sewana,"
+                />
+                <input
+                  type="text"
+                  class="form-control-inline"
+                  placeholder="98769"
+                />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4">
+              <div class="shipper">
+                <label for="">NOTIFY PARTY</label>
+                <input
+                  type="text"
+                  class="form-control-inline"
+                  placeholder="Jhone"
+                />
+                <input
+                  type="text"
+                  class="form-control-inline"
+                  placeholder="yapa sewana"
+                />
+                <input
+                  type="text"
+                  class="form-control-inline"
+                  placeholder="98769"
+                />
+              </div>
+            </td>
+            <td colspan="4" rowspan="2">
+              For delivery of goods please apply to:
+              <input
+                type="text"
+                class="form-control-inline"
+                placeholder="oiuyy"
+                max-line="3"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">Place of Receipt</td>
+            <td colspan="2">
+              <input
+                type="text"
+                class="form-control-inline"
+                placeholder="kandy"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input
+                type="text"
+                class="form-control-inline"
+                placeholder="india"
+              />
+            </td>
+            <td colspan="2">Port of Loading</td>
+            <td colspan="4" rowspan="2">
+              For delivery of goods please apply to:<input
+                type="text"
+                class="form-control-inline"
+                placeholder="tyuiokjh"
+                max-line="3"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              Port of Discharge<input
+                type="text"
+                class="form-control-inline"
+                placeholder="japan"
+              />
+            </td>
+            <td colspan="2">
+              Final Destination<input
+                type="text"
+                class="form-control-inline"
+                placeholder="japan"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">Container &amp; Seal No</td>
+            <td colspan="1">Quality and Kind of Packages</td>
+            <td colspan="3">
+              Particulars Furnished By Merchant Description of Goods
+            </td>
+            <td colspan="2">Measurement(CBM) Gross Weight(KGS)</td>
+          </tr>
+          <tr style="height: 500px">
+            <td colspan="2">
+              <div style="position: relative; height: 500px">
+                <input
+                  type="text"
+                  class="form-control-inline"
+                  placeholder="thousand"
+                />
+                <span style="position: absolute; bottom: 0; left: 0"
+                  >Total Number of containers<br />of packages (in words)</span
+                >
+              </div>
+            </td>
+            <td colspan="1">
+              <input
+                type="text"
+                class="form-control-inline"
+                placeholder="fcl 40"
+              />
+            </td>
+            <td colspan="3">
+              <input
+                type="text"
+                class="form-control-inline"
+                placeholder="kmjnhbgvf"
+              />
+            </td>
+            <td colspan="2">
+              <input type="text" class="form-control-inline" placeholder="80" />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input
+                type="text"
+                class="form-control-inline"
+                placeholder="hjkoi"
+              />FREIGHT &amp; CHARGES
+            </td>
+            <td colspan="1">Revenue Tons</td>
+            <td colspan="1"></td>
+            <td colspan="1">Rate</td>
+            <td colspan="1">Prepaid</td>
+            <td colspan="2">Collect</td>
+          </tr>
+          <tr>
+            <td colspan="2">Service Type</td>
+            <td colspan="1">Exchange Rate</td>
+            <td colspan="2"></td>
+            <td colspan="1">Prepaid at</td>
+            <td colspan="2">
+              <input
+                type="text"
+                class="form-control-inline"
+                placeholder="origin"
+              />Payable at
+            </td>
+          </tr>
+          <tr>
+            <td colspan="8"></td>
+          </tr>
+          <tr>
+            <td colspan="2"></td>
+            <td colspan="2"></td>
+            <td colspan="4" rowspan="2"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="shipper"></div>
+</body>

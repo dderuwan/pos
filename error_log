@@ -1,0 +1,16 @@
+[18-Sep-2023 12:53:52 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/esupport/erp-system-haritha.esupportlive.com/index.php on line 323
+[18-Sep-2023 12:54:01 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/esupport/erp-system-haritha.esupportlive.com/index.php on line 323
+[18-Sep-2023 12:54:01 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/esupport/erp-system-haritha.esupportlive.com/index.php on line 323
+[18-Sep-2023 12:54:02 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/esupport/erp-system-haritha.esupportlive.com/index.php on line 323
+[18-Sep-2023 12:54:02 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/esupport/erp-system-haritha.esupportlive.com/index.php on line 323
+[18-Sep-2023 12:54:02 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/esupport/erp-system-haritha.esupportlive.com/index.php on line 323
+[18-Sep-2023 12:54:02 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/esupport/erp-system-haritha.esupportlive.com/index.php on line 323
+[18-Sep-2023 12:54:03 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/esupport/erp-system-haritha.esupportlive.com/index.php on line 323
+[18-Sep-2023 12:54:03 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/esupport/erp-system-haritha.esupportlive.com/index.php on line 323
+[18-Sep-2023 12:54:03 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/esupport/erp-system-haritha.esupportlive.com/index.php on line 323
+[18-Sep-2023 12:54:03 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home2/esupport/erp-system-haritha.esupportlive.com/index.php on line 323
+[18-Sep-2023 12:54:05 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/esupport/erp-system-haritha.esupportlive.com/index.php on line 323
+[18-Sep-2023 12:54:06 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/esupport/erp-system-haritha.esupportlive.com/index.php on line 323
+[18-Sep-2023 12:54:10 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/esupport/erp-system-haritha.esupportlive.com/index.php on line 323
+[18-Sep-2023 12:54:12 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/esupport/erp-system-haritha.esupportlive.com/index.php on line 323
+[18-Sep-2023 12:54:14 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home2/esupport/erp-system-haritha.esupportlive.com/index.php on line 323
