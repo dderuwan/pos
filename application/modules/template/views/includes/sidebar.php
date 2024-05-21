@@ -1398,7 +1398,8 @@
 
         <?php }?>
 
-
+        <li class="treeview"><a href="<?php echo base_url('printlable/module/index') ?>"><i class="fa fa-adn"></i>
+        <span><?php echo display('printlable'); ?></span></a></li>
 
     </ul>
 </div> <!-- /.sidebar -->
